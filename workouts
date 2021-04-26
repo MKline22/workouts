@@ -1,3 +1,5 @@
+incomplete program
 import random
+
 i = 0 
 workouts = ("push up", "bench press", "squats")
