@@ -1,5 +1,9 @@
 incomplete program
 import random
-
+user = 0
 i = 0 
 workouts = ("push up", "bench press", "squats")
+
+ran = [i for i in range(workouts)]
+random.shuffle(ran)
+
