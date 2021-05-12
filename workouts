@@ -1,9 +1,6 @@
-incomplete program
 import random
-user = 0
-i = 0 
 workouts = ("push up: 10x3", "bench press: 8x4", "squats: 20x4")
-
-ran = [i for i in range(workouts)]
-random.shuffle(ran)
-
+i = True
+while i != quit:
+  user = input("Please type Yes for a workout: ")
+  print("\n Your randomly selected workout is:",random.choice(workouts) + "!\n")
